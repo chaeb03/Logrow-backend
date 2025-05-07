@@ -23,5 +23,10 @@ public class UserEntity {
     private String username;     // 기존 아이디 필드
     private String password;     // 기존 비밀번호 필드
 
+    private String profileImage; // 프로필 이미지 URL
+    private String email;        // 이메일
+    private String phone;        // 전화번호
+    private String introduction; // 소개글
+
     private String role;
 }
