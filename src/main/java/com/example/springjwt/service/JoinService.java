@@ -19,6 +19,7 @@ public class JoinService {
 
     public void joinProcess(JoinDTO joinDTO) {
 
+        System.out.println("password : " + joinDTO.getPassword());
         // ✅ 새로운 필드 값 추출 (유효성 검사 필요 시 여기 추가)
         String name = joinDTO.getName();
         String birthDate = joinDTO.getBirthDate();
